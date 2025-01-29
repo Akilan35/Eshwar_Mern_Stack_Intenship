@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-3;
+}
+.bg-primary{
+  background: rgb(85 81 227);
+}
+.mabile-nav{
+  @apply fixed top-20 left-0 bg-gray-600 w-full h-1/6;
+}
+.mabile-nav li{
+  @apply h-full w-full text-center border-b-2;
+}
